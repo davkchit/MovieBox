@@ -1,0 +1,51 @@
+@import "./media.css";
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+
+.hero {
+  background-image: url(/img/Poster.png);
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 10% 0 10%;
+}
+
+.logo {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+}
+
+.logos {
+  font-size: 24px;
+  color: white;
+  margin: 5px 10px;
+}
+
+.signin {
+  font-size: 17px;
+  color: white;
+  margin: 10px 15px;
+}
+
+.img2 {
+  height: 37px;
+  width: 37px;
+  margin: 5px 10px;
+}
+
+.main {
+  padding: 40px 10% 0 10%;
+}
+
+.main * {
+  color: white;
+}
