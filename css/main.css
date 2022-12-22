@@ -6,7 +6,7 @@
 
 .hero {
   background-image: url(../img/Poster.png);
-  height: 70vh;
+  height: 100vh;
   width: 100%;
   background-position: center;
   background-size: cover;
@@ -44,7 +44,7 @@ header.header {
   margin: 5px 10px;
 }
 
-/* Main */
+/* Hero Main */
 
 .main {
   padding: 40px 10% 0 10%;
@@ -92,3 +92,8 @@ button.button h4 {
   margin: 10px 16px 10px 1px;
 }
 
+/* Main */
+
+main {
+  
+}
