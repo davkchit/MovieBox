@@ -72,28 +72,28 @@ main .header h1 {
   margin: 0px;
 }
 
-button.button {
-  width: 170px;
+a.button {
+  width: 190px;
   height: 36px;
   background-color: #BE123C;
   border: none;
   border-radius: 6px;
   display: flex;
-  cursor: default;
+  cursor: pointer;
 }
 
-button.button .Play {
+a.button .Play {
   margin: 8px 8px 8px 16px;
   width: 20px;
   height: 20px;
 }
 
-button.button h4 {
-  margin: 10px 16px 10px 1px;
+a.button h4 {
+  margin: 8px 16px 10px 1px;
 }
 
 /* Main */
 
 main {
-  
+
 }
