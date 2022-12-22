@@ -79,7 +79,6 @@ main .header h1 {
   border: none;
   border-radius: 6px;
   display: flex;
-  cursor: pointer;
 }
 
 .button .Play {
