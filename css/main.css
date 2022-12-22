@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
 
 .hero {
-  background-image: url(/img/Poster.png);
+  background-image: url(img/Poster.png);
   height: 100vh;
   width: 100%;
   background-position: center;
