@@ -94,5 +94,10 @@ main .header h1 {
 /* Main */
 
 main {
+  padding: 40px 10% 0 10%;
+}
 
+.block1, .block2{
+  display: flex;
+  justify-content: space-between;
 }
