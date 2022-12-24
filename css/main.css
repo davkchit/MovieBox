@@ -15,7 +15,7 @@
 header.header {
   display: flex;
   justify-content: space-between;
-  padding: 40px 10% 0 10%;
+  padding: 40px 5% 0 5%;
 }
 
 .logo {
@@ -47,7 +47,7 @@ header.header {
 /* Hero Main */
 
 .main {
-  padding: 40px 10% 0 10%;
+  padding: 40px 5% 0 5%;
 }
 
 .main * {
@@ -94,11 +94,74 @@ main .header h1 {
 /* Main */
 
 main {
-  padding: 40px 10% 0 10%;
+  padding: 0 5% 0 5%;
+}
+
+main h1 {
+  text-align: center;
+  margin-top: 40px;
 }
 
 .block1, .block2{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+  align-items: center;
+  justify-items: center;
+}
+
+.score {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+}
+
+.score * {
+  margin: 5px 5px 5px 0;
+}
+
+.onesec img {
+  width: 35px;
+  height: 17px;
+}
+
+.twosec img{
+  width: 16px;
+  height: 17px;
+}
+
+.score .onesec, .score .twosec {
+  display: flex;
+}
+
+.block1 figure, .block2 figure {
+  margin-top: 55px;
+}
+
+/* Footer */
+
+.social {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.social * {
+  margin: 0 50px;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.info * {
+  font-size: 18px;
+  margin: 0 50px;
+}
+
+.dopinfo * {
+  font-size: 18px;
+  text-align: center;
+}
+
+.dopinfo {
+  margin-top: 50px;
 }
