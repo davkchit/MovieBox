@@ -138,17 +138,20 @@ main h1 {
 /* Footer */
 
 .social {
-  text-align: center;
   margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .social * {
-  margin: 0 50px;
+  margin: 10px 50px;
 }
 
 .info {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   margin-top: 50px;
 }
 
