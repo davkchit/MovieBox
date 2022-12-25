@@ -81,6 +81,7 @@ main .header h1 {
   display: flex;
 }
 
+
 .button .Play {
   margin: 8px 8px 8px 16px;
   width: 20px;
@@ -113,6 +114,10 @@ main .header h5 {
   font-size: 18px;
   color: #BE123C;
   margin-top: 10px;
+}
+
+main .header h5:hover {
+  transform: scale(1.1);
 }
 
 .block1, .block2{
@@ -202,6 +207,10 @@ main .header h5 {
 
 .social * {
   margin: 10px 50px;
+}
+
+.social *:hover  {
+  transform: scale(1.1);
 }
 
 .info {
