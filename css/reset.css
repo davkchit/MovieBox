@@ -5,6 +5,7 @@
     text-decoration: none;
     box-sizing: border-box;
     font-family: 'DM Sans', sans-serif;
+    -webkit-tap-highlight-color: transparent;
   }
 
 a {
